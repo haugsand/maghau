@@ -1,0 +1,32 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Tangerine:400,700);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  height: 100%;
+}
+
+
+h1 {
+  font-family: Tangerine, dosis; 
+  font-size: 10rem; 
+  font-weight: 400;
+  height: 10.6rem;
+  left: 50%;
+  margin: -5.3rem 0 0 -10rem;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 20rem;
+}
