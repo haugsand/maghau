@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:600);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #E96B56;
+  color: #393840;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+fieldset {
+  background: #E3DDCF;
+  border: 0;
+
+}
+
+@media (min-width: 30em) {
+  fieldset {
+    margin: 10% auto;
+    max-width: 45rem;
+  }
+}
+
+
+h1 {
+  background: #5C5C77;
+  color: #fff;
+  font-family: "Josefin Slab", serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  padding: 3rem 4rem;
+  text-align: left;
+}
+
+
+ul {
+  list-style: none;
+  margin: 3rem 4rem;
+}
+
+li {
+  margin: 0 0 4rem 0;
+  position: relative;
+}
+
+li:last-child {
+  margin: 0;
+  text-align: right;
+}
+
+label {
+  cursor: pointer;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+}
+
+
+input[type="text"], 
+input[type="email"],
+textarea {
+  border: 0;
+  border-bottom: 3px solid #D24344;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 1rem 1rem 4.5rem;
+  transition: border-color 1s;
+  width: calc(100% - 5.5rem);
+}
+
+input[type="text"]:valid, 
+input[type="email"]:valid,
+textarea:valid {
+  border-color: #8DD69A;
+}
+
+input[type="email"] { background: #fff url(email.svg) no-repeat 1rem 50%; }
+input[type="text"] { background: #fff url(name.svg) no-repeat 1rem 50%; }
+
+textarea {
+  background: #fff url(message.svg) no-repeat 1rem 1rem;
+  height: 12rem;
+}
+
+
+input[type="submit"] {
+  background: #D24344;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1.5rem 2rem;
+}
+
+input[type="submit"]:hover {
+  background: #E96B56;
+}

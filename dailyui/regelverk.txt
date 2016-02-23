@@ -1,0 +1,28 @@
+﻿- Dette er for egen læring
+- Alle er optimalisert for mobil, men er tilgjengelig også i større skjermoppløsninger
+- Først og fremst prototyping i HTML og CSS
+- Ingen tidsbegrensning. Gir meg ikke før jeg er fornøyd, men skal heller ikke finpusse inn i evigheten
+- Trenger ikke å løse utfordringene i kronologisk rekkefølge
+- Språket er norsk
+- Bruk SVG
+- Prøv å variere bruk av font og farger
+- HTML før CSS
+- Fokus på semantisk og god markup
+- Tilpasset siste versjon av Chrome. Eksperimentell CSS er lov
+- Å søke inspirasjon hos andre er lov
+- Relative enheter
+- Velg enkle løsninger
+
+Hjelpemidler:
+- https://dribbble.com/
+- http://www.colourlovers.com/
+- https://materialdesignicons.com/
+- http://collectui.com/challenges/
+- http://fontpair.co/
+- https://www.google.com/fonts
+
+Thumbnails:
+- 1x: 200x150
+- 2x: 400x300
+- 3x: 600x450
+- 4x: 
