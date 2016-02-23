@@ -1,0 +1,13 @@
+distelli/Distelli-Slash:
+  PkgInclude:
+    - '**'
+
+  PreRelease:
+    - npm install
+
+  PostInstall:
+    - npm install
+    - npm update
+
+  Exec:
+    - /usr/local/bin/node app.js
