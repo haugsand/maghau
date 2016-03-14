@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgb(255,255,255);
+  color: rgba(0,0,0,0.8);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin: 1.5rem 2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 1.5rem 2rem;
+}
+
+ul {
+  list-style: none;
+  margin: 2rem;
+}
+
+li {
+  margin: 0 0 1rem 0;
+  padding: 0 0 0 3.5rem;
+}
+
+.summary {
+  background: url(hotell.jpg) no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 10rem 1rem 1rem 1rem;
+}
+
+.summary li {
+  margin: 0;
+  padding: 0;
+}
+
+.summary li:first-child {
+  font-size: 1.4rem;
+}
+
+.summary li:last-child {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0.2rem 0 0 0;
+}
+
+.summary li span {
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  display: inline-block;
+  padding: 0.75rem 1rem;
+}
+
+.info li {
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+
+.breakfast { background: url(breakfast.svg); }
+.people { background: url(people.svg); }
+.wifi { background: url(wifi.svg); }
+
+dl {
+  font-size: 1.8rem;
+  margin: 2rem;
+  text-transform: lowercase;
+}
+
+dt {
+  float: left;
+  font-style: italic;
+  margin: 0 0 1rem 0;
+  width: 3.5rem;
+}
+
+dd {
+  margin: 0 0 1rem 0;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 2rem auto;
+}
+
+th, td {
+  padding: 0.5rem 0.8rem;
+}
+
+th {
+  border-bottom: 0.1rem solid rgba(0,0,0,0.2);
+  font-weight: 600;
+}
+
+tbody tr:first-child td {
+  padding-top: 1rem;
+}
+
+td {
+  text-align: center;
+}
+
+.active {
+  background: #e6f6f9;
+  border: 0.1rem solid rgb(255,255,255);
+  font-weight: 600;
+  padding: 0.4rem;
+}
+
+.inactive {
+  color: rgba(0,0,0,0.5);
+  font-weight: 300;
+}
+
+.weekend {
+  color: rgb(201,82,22);
+}
